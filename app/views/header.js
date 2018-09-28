@@ -104,7 +104,9 @@ module.exports = Backbone.View.extend({
       var date = util.extractDate(name);
       var extension = name.split('.').pop();
 
-      var newPath = pathUtil.join.apply(null, parts.concat([date + '-' + util.stringToUrl(value) + '.' + extension]));
+      var newPath = pathUtil.join.apply(null, parts.concat([date + '-' + value + '.' + extension]));
+      //var newPath = pathUtil.join.apply(null, parts.concat([date + '-' + util.stringToUrl(value) + '.' + extension]));
+      // util.stringToUrl(value) cause non-alphanumeric words disappeared
 
       this.file.set('path', newPath);
     }
