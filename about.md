@@ -21,3 +21,4 @@ We do not offer support for Prose at this time, however if you are a content edi
 ## Credits
 
 Prose is developed and maintained by [Development Seed](http://developmentseed.org), a creative data visualization and mapping team based in Washington, DC.
+
