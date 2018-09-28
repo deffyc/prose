@@ -13,7 +13,7 @@ if [ $TRAVIS_PULL_REQUEST = "false" ] && [ $TRAVIS_BRANCH = ${DEPLOY_BRANCH} ]; 
   cd site
   git init
   git config user.name "Travis-CI"
-  git config user.email "travis@somewhere.com"
+  git config user.email "deffyc@gmail.com"
   git add .
   git commit -m "CI deploy to gh-pages"
   git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages
