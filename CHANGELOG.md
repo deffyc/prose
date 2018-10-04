@@ -1,4 +1,4 @@
-## 1.1.23
+## 1.1.23 
 
 - Adds support for a CURRENT_USER varible https://github.com/prose/prose/pull/1051
 
