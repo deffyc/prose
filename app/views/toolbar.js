@@ -488,7 +488,7 @@ module.exports = Backbone.View.extend({
       $media.append(tmpl({
         name: d.get('name'),
         type: d.get('type'),
-        path: path + '/' + encodeURIComponent(d.get('name')),
+        path: path + '/' + d.get('name'),
         isMedia: util.isMedia(d.get('name').split('.').pop())
       }));
     });
