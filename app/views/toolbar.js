@@ -398,7 +398,8 @@ module.exports = Backbone.View.extend({
         // Finally, clear the queue object
         this.queue = undefined;
       } else {
-        var src = '/' + $('input[name="url"]').val();
+        var src = $('input[name="url"]').val();
+        src=(src.indexOf("http")+src.src("//"))<0?'/':'' + src;
         var alt = $('input[name="alt"]').val();
         this.view.editor.replaceSelection('![' + alt + '](' + src + ')');
         this.view.editor.focus();
