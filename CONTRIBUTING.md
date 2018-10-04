@@ -1,4 +1,4 @@
-# Contributing to prose
+# Contributing to prose 
 
 Thanks for thinking of contributing to prose! Whether you are here to report
 issues or develop on the project the sections below provide
