@@ -1,0 +1,6 @@
+{
+  "api": "https://api.github.com",
+  "site": "https://github.com",
+  "clientId": "fcfe65ea8ba0db444418",
+  "gatekeeperUrl": "https://ccsyuegatekeeper.herokuapp.com"
+}
